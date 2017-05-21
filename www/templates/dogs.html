@@ -1,0 +1,9 @@
+<ion-view view-title="dogs">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="dog in dogs | orderBy:'name'" href="#/app/dogs/{{dog.id}}">
+        {{dog.name}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

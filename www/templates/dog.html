@@ -1,0 +1,20 @@
+<ion-view view-title="Playlist">
+  <ion-content>
+  <div class="list card">
+  	<div class="item item-avatar">
+  		<img src="img/avatar.jpg" alt=""/>
+    <h2>{{specificDog.name}}</h2>
+    <p>{{specificDog.rating}}/10</p>
+    </div>
+    <div class="item item-body">
+    <p>{{specificDog.text}}</p>
+    <div ng-repeat="img in specificDog.img"><img class="full-image" src="img/{{img.filename}}.jpg" alt=""/></div>
+    <p>{{specificDog.rts}} Retweets {{specificDog.likes}} Likes</p>
+    </div>
+    <div class="center-align">
+      <button ng-if="specificDog.favourite == false" class="button button-postive" ng-click="specificDog.favourite = true">Favourite</button>
+      <button ng-if="specificDog.favourite == true" class="button button-postive" ng-click="specificDog.favourite = false">Unfavourite</button>
+    </div>
+  </div>
+  </ion-content>
+</ion-view>

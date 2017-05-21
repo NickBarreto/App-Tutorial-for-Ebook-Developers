@@ -1,0 +1,11 @@
+<ion-view view-title="dogs">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="dog in filteredDogs = (dogs | filter:{favourite:true})" href="#/app/dogs/{{dog.id}}">
+        {{dog.name}}
+      </ion-item>
+      <ion-item class="item-text-wrap" ng-if="filteredDogs.length === 0"><p>You don't have any favourites! I'm not sure I could choose between them either…</p></ion-item>
+      <p></p>
+    </ion-list>
+  </ion-content>
+</ion-view>
