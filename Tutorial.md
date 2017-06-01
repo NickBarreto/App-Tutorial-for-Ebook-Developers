@@ -113,8 +113,10 @@ So now we can start building this view out a bit more. This is just HTML, like y
 
 Let's add the text below the name.
 
-```<h1>{{specificDog.name}}</h1>
-<p>{{specificDog.text}}</p>```
+```
+<h1>{{specificDog.name}}</h1>
+<p>{{specificDog.text}}</p>
+```
 
 We have photos of these dogs though. That's sort of the whole point, right?
 
