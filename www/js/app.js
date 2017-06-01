@@ -419,11 +419,11 @@ angular.module('starter', ['ionic', 'ngStorage', 'starter.controllers'])
     
   })
 
-  .state('app.search', {
+  .state('app.favourites', {
     url: '/favourites',
     views: {
       'menuContent': {
-        templateUrl: 'templates/search.html',
+        templateUrl: 'templates/favourites.html',
         controller: 'dogsCtrl'
       }
     }
