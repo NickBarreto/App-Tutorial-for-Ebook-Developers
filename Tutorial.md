@@ -298,8 +298,26 @@ Notice that this uses a double equals rather than a single one – the equals he
 
 There we go. Now you can set and manage your favourites as you like.
 
+## Testing your app
+
+We've been using `ionic serve` to see how our app is working in a browser, and `ionic serve --lab` to get an idea of how it will look on a phone, but you can also compile and test your app on your own device or on a device simulator on your machine. 
+
+First of all, let's make sure Ionic knows your app is for both Android and iOS. In the terminal, run `ionic platform add android` and `ionic platform add ios`.
+
+To run the app in the iOS simulator, enter into your terminal:
+
+`ionic build ios`  
+
+and then 
+
+`ionic emulate ios`
+
+To install testing apps on iOS devices can be a bit complicated as you have to be signed up as a developer (which costs $99), but trying your app on an Android device is much easier.
+
+Plug in an Android device that has USB Debugging enabled (you turn this on in the settings under Developer Options. If you don't see that option, follow [these steps](https://developer.android.com/studio/debug/dev-options.html)). Then, enter `ionic run android` into the terminal. Your app will open on your device and you can show people what you built.
+
 ## Further links
 
-There's a lot more to cover, such as fetching and writing data to a server, rather than localstorage, analytics, which you can get through ionic or roll your own using google analytics. We've also barely touched on the further scaffolding for interactions that ionic provides, but if we go to [http://ionicframework.com/docs/overview/](http://ionicframework.com/docs/overview/) it's a great place to get started. It might also be useful to take a look at how the Angular.js library works, too. Its documentation lives at [http://docs.angularjs.org](http://docs.angularjs.org)
+There's a _lot_ more to cover, such as fetching and writing data to a server, rather than localstorage; analytics, which you can get through ionic or roll your own using google analytics; and accessing device features like a camera. We've also barely touched on the further scaffolding for the UI that Ionic provides, but if we go to [http://ionicframework.com/docs/overview/](http://ionicframework.com/docs/overview/) it's a great place to get started. It might also be useful to take a look at how the Angular.js library works, too. Its documentation lives at [http://docs.angularjs.org](http://docs.angularjs.org)
 
 If you have any questions, I am on [twitter/nickbarreto](http://www.twitter.com/nickbarreto) and #eprdctn is always a great place to ask questions as well. Suggestions, improvements or changes to the app as pull requests appreciated and encouraged. I hope you'll be building your own apps soon!
