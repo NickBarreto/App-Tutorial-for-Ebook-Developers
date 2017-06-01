@@ -1,6 +1,6 @@
-# Example _Dog Rates_ Ionic App
+# App Tutorial for Ebook Developers
 
-_A Simple Ionic Tutorial_
+_An Example Ionic App_
 
 At [ebookcraft 2017](http://techforum.booknetcanada.ca/ebookcraft/) I walked a room full of ebook developers on how to build cross-platform apps using the languages they already know: HTML, CSS and Javascript. This is the app we built.
 
