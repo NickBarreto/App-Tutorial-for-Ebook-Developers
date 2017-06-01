@@ -10,7 +10,7 @@ This app is the result of the workshop from Ebookcraft 2017. It is intended as a
 
 # Tutorial
 
-The full, step by step [tutorial](tutorial.md) is a part of this repository. That way you'll always have access to it offline if you clone this repo to your machine, along with the completed app's code to refer to if you get stuck.
+The full, step by step [tutorial](Tutorial.md) is a part of this repository. That way you'll always have access to it offline if you clone this repo to your machine, along with the completed app's code to refer to if you get stuck.
 
 # Attribution
 
