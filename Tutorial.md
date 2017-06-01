@@ -1,6 +1,6 @@
 # Building an app with HTML, CSS and Javascript
 
-##Introduction
+<h2>Introduction</h2>
 
 We're going to be building a cross platform Android and iOS app with HTML, CSS and Javascript together, but before we get started I want to point out that this is very rough code written very simply originally in front of a live audience. I'm a self-taught programmer and I am absolutely certain there are better, more efficient ways of doing a lot of what we do here today. But the reason for this tutorial isn't about specifics of great code, as this will most definitely sloppy and largely uncommentted, but what I'm hoping to do is to demistify the process, get you comfortable enough to try it for yourself. I think this kind of development work can be incredibly useful for publishers, and most of you in this room will already have the skills you need to do it, or can pick them up very easily. 
 
@@ -10,7 +10,7 @@ Since my main hope for the original talk was that people would go away and try t
 
 Before we get started you'll need to install all of the necessary libraries and dependencies, as explained in this [article](http://www.booknetcanada.ca/blog/2017/1/26/all-the-tools-you-need-to-take-your-skills-beyond-ebooks). It covers everything you need to get started, which are mainly requirements for installing the Ionic Framework. [Ionic](http://ionicframework.com) is an open source framework that allows you to build cross platform apps using HTML, CSS and Javascript. It provides you with a lot of scaffolding and using the Angular.js library to give you the tools you need to create a great app.
 
-You don't necessarily need to download this whole github repository to do the tutorial. With the tools installed, can just download the [Starter Data](Starter Data) folder only and get cracking if you want.
+You don't necessarily need to download this whole github repository to do the tutorial. With the tools installed, can just download the [Starter Data](Starter%20Data) folder only and get cracking if you want.
 
 ## Getting started
 
@@ -113,8 +113,8 @@ So now we can start building this view out a bit more. This is just HTML, like y
 
 Let's add the text below the name.
 
-`<h1>{{specificDog.name}}</h1>
-<p>{{specificDog.text}}</p>`
+```<h1>{{specificDog.name}}</h1>
+<p>{{specificDog.text}}</p>```
 
 We have photos of these dogs though. That's sort of the whole point, right?
 
